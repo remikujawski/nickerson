@@ -159,3 +159,9 @@
   }
 }
 @layer utilities;
+body {
+  background-color: #ffd50f;
+}
+.svg-navy-blue {
+  fill: #001d52;
+}
