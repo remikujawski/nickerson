@@ -7,3 +7,6 @@ body{
 .svg-navy-blue{
     fill: #001d52;
 }
+.bo-logo svg{
+    width:100%;
+}
