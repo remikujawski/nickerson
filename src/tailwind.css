@@ -1,7 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap");
 @import "tailwindcss";
 @plugin "daisyui";
 
 @theme {
-  --color-nicknavyblue: #001d52;
-  --color-nickyellow: #ffd50b;
+  /* Default styles */
+  --default-font-family: "Titillium Web", sans-serif;
+  /* Navyblue */
+  --color-nicknavyblue-5: oklch(0.9662 0.0034 247.86);
+  --color-nicknavyblue-10: oklch(0.9312 0.0084 271.32);
+  --color-nicknavyblue-20: oklch(0.8621 0.0153 260.73);
+  --color-nicknavyblue-40: oklch(0.7194 0.0335 261.71);
+  --color-nicknavyblue-60: oklch(0.5677 0.0537 262.9);
+  --color-nicknavyblue-80: oklch(0.4114 0.078 262.11);
+  --color-nicknavyblue-100: oklch(0.2509 0.1033 260.18);
+
+  /* Yellow */
+  --color-nickyellow-5: oklch(0.9929 0.0133 97.44);
+  --color-nickyellow-10: oklch(0.9859 0.0265 97.6);
+  --color-nickyellow-20: oklch(0.9723 0.0524 97.9);
+  --color-nickyellow-40: oklch(0.9452 0.1001 97.51);
+  --color-nickyellow-60: oklch(0.9226 0.141 97.61);
+  --color-nickyellow-80: oklch(0.9006 0.1682 96.33);
+  --color-nickyellow-100: oklch(0.883 0.179861 94.332);
+
+  /* Grey */
+  --color-nickgrey-5: oklch(0.9843 0.0011 197.14);
+  --color-nickgrey-10: oklch(0.9697 0.0017 247.84);
+  --color-nickgrey-20: oklch(0.9388 0.0025 228.79);
+  --color-nickgrey-40: oklch(0.8769 0.006 239.83);
+  --color-nickgrey-60: oklch(0.8137 0.0087 236.59);
+  --color-nickgrey-80: oklch(0.7487 0.0133 236.69);
+  --color-nickgrey-100: oklch(0.6837 0.0154 238.12);
+
+  --color-grid1: var(--color-nickgrey-20);
+  --color-grid2: var(--color-nickgrey-5);
+  --color-grid3: var(--color-white);
+  --color-grid4: var(--color-white);
+  --color-grid5: var(--color-nicknavyblue-100);
+  --color-grid6: var(--color-nickgrey-5);
+  --color-grid7: var(--color-nickgrey-10);
+  --color-grid8: var(--color-nicknavyblue-10);
+  --color-grid9: var(--color-nickgrey-10);
+}
+
+html,
+body {
+  background-color: oklch(0.9672 0 0);
+  color: #333333;
 }
